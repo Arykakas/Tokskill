@@ -1,0 +1,42 @@
+
+
+.choose-container {
+    background-image: linear-gradient(0deg, rgb(255, 255, 255), rgb(204, 214, 233));
+    padding: 104px 189px;
+    box-sizing: border-box;
+    margin-top: -4px;
+    text-align: center;
+    font-family: Arimo, sans-serif;
+
+    @media only screen and (max-width: 840px) {
+        padding: 104px 51px;
+      }
+
+      h1 {
+        margin: 10px auto 60px auto;
+      }
+
+    .reasons {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        max-width: 1280px;
+    }
+    .single-box{
+        text-align: center;
+        width: 300px;
+
+        .icon {
+            margin: 0 auto;
+            width: 52px;
+
+            img {
+                width: 100%;
+            }
+        }
+        .text {
+            text-align: center;
+        }
+    }
+}

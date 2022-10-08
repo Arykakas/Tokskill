@@ -1,0 +1,72 @@
+.courses-section{
+    
+    .main-header {
+        width: 100%;
+        text-align: center;
+    }
+    .courses-container {
+     
+        max-width: 1280px;
+        margin: 0 auto;
+        font-family: Arimo, sans-serif;
+
+        .sub-content {
+            @media only screen and (max-width: 674px) {
+                text-align: center;
+              }
+            .left-heading {
+                display: inline-block;
+                margin-bottom: 0;
+                width: 200px;
+                padding-bottom: 0;
+                margin-left: 99px;
+                @media only screen and (max-width: 674px) {
+                    margin-left: 0px !important;
+                  }
+                  @media only screen and (max-width: 840px) {
+                    margin-left: 64px;
+                  }
+            }
+
+            .vw {
+                font-size: 14px;
+                text-align: right;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                width: 69%;
+                @media only screen and (max-width: 840px) {
+                    width: 57%;
+                  }
+                  @media only screen and (max-width: 675px) {
+                    width: fit-content !important;
+                  }
+
+                a {
+                    color: black;
+                }
+            }
+            .sub-title{
+                margin-left: 99px;
+                @media only screen and (max-width: 840px) {
+                    margin-left: 64px;
+                  }
+                @media only screen and (max-width: 675px) {
+                    margin-left: 0;
+                  }
+                p {
+                    font-weight: 600;
+                    font-size: 14px;
+                    letter-spacing: 0.4px;
+                    line-height: 18px;
+                }
+            }
+        }
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            justify-content: center;
+        }
+    }
+}

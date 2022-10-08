@@ -1,0 +1,35 @@
+.affliation-container {
+    background-color: #eeeff0;
+    font-family: Arimo, sans-serif;
+    overflow-x: clip;
+    width: 100%;
+    display: block;
+    padding: 24px 0;
+    box-sizing: border-box;
+    .content {
+        max-width: 1200px;
+        width: 82%;
+        text-align: center;
+        margin: 0 auto;
+        h1 {
+            width: 100%;
+        }
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: center;
+            flex-wrap: wrap;
+            img {
+                width: 164px;
+                margin: 0 30px;
+            }
+            img:nth-child(3) {
+                width: 69px;
+            }
+            img:nth-child(4) {
+                width: 60px;
+            }
+        }
+    }
+}
